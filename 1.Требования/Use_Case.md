@@ -1,3 +1,5 @@
+Диаграмма UML USE CASE https://drive.google.com/file/d/1KIDhfKeM9WZvQ6sjBKXoW7AWh_D3_26Z/view?usp=sharing
+
 Use case для роли "Пользователь" (клиент):
 
 1. Регистрация и вход в систему
