@@ -42,7 +42,7 @@ BPMN-диаграммы отражают поведение системы и п
 
 В сквозном процессе отражены только ключевые бизнес-шаги. Сложная логика вынесена в подпроцессы.
 
-https://modeler.camunda.io/share/9d2f847a-e9d8-4cb6-86a5-50b1e97d380f
+https://modeler.camunda.io/share/9d2f847a-e9d8-4cb6-86a5-50b1e97d380f - order_lifecycle_main
 
 ---
 
@@ -59,6 +59,8 @@ https://modeler.camunda.io/share/9d2f847a-e9d8-4cb6-86a5-50b1e97d380f
 - обработку успешной и неуспешной оплаты;
 - таймер ожидания оплаты.
 
+https://modeler.camunda.io/share/f4a02d18-4519-4a6f-89de-6e4b451786f2 - payment_process
+
 #### `Courier_Assignment_Process`
 
 Описывает:
@@ -67,7 +69,7 @@ https://modeler.camunda.io/share/9d2f847a-e9d8-4cb6-86a5-50b1e97d380f
 - повторные попытки назначения;
 - эскалацию при отсутствии доступных курьеров.
 
-Подпроцессы вызываются из основного процесса через Call Activity.
+https://modeler.camunda.io/share/bbd757bd-b13e-4f03-8913-e4940ce022ba - courier_assignment_process
 
 ---
 
