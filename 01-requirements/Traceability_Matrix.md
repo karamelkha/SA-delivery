@@ -1,4 +1,4 @@
-# Traceability Matrix — Delivery
+﻿# Traceability Matrix — Delivery
 
 Документ описывает трассировку бизнес-правил (BR), функциональных требований (FR),
 нефункциональных требований (NFR), пользовательских сценариев (Use Case)
@@ -32,9 +32,9 @@
 | BR-17. Статус «В пути» отражает доставку                 | FR-29                   | UC-4        | Order_Lifecycle_Main       |
 | BR-18. Результат доставки фиксируется                    | FR-30, FR-32            | UC-4        | Order_Lifecycle_Main       |
 | BR-19. Администратор управляет проблемными заказами      | FR-34, FR-35, FR-36     | UC-3, UC-4  | Order_Lifecycle_Main       |
-| BR-20. Администратор вправе отменить заказ               | FR-36                   | UC-3, UC-4  | Order_Lifecycle_Main       |
-| BR-21. История изменений обязательна                     | FR-31                   | UC-1 – UC-6 | All                        |
-| BR-22. Заказ может иметь только один актуальный статус   | FR-31                   | UC-1 – UC-6 | All                        |
+| BR-20. Администратор вправе отменить заказ               | FR-36, FR-42           | UC-3, UC-4, UC-7 | Order_Lifecycle_Main |
+| BR-21. История изменений обязательна                     | FR-31, FR-45           | UC-1 – UC-7 | All                        |
+| BR-22. Заказ может иметь только один актуальный статус   | FR-31, FR-44           | UC-1 – UC-7 | All                        |
 
 ---
 
@@ -51,6 +51,7 @@
 | FR-33 – FR-36           | UC-3, UC-4 |
 | FR-37 – FR-38           | UC-5       |
 | FR-39 – FR-41           | UC-6       |
+| FR-42 – FR-45           | UC-7       |
 
 ---
 
@@ -58,7 +59,7 @@
 
 | BPMN-процесс               | Functional Requirements      |
 | -------------------------- | ---------------------------- |
-| Main                       | FR-1 – FR-41                 |
+| Main                       | FR-1 – FR-45                 |
 | Payment_Process            | FR-9 – FR-18                 |
 | Courier_Assignment_Process | FR-24 – FR-28, FR-33 – FR-35 |
 
@@ -66,17 +67,28 @@
 
 ## 4. Трассировка нефункциональных требований → функциональных требований
 
-| Non-Functional Requirement | Связанные FR                     |
-| -------------------------- | -------------------------------- |
-| NFR-1, NFR-2               | FR-13, FR-18, FR-27              |
-| NFR-3                      | FR-12, FR-31                     |
-| NFR-4, NFR-5               | FR-8, FR-14, FR-21, FR-23, FR-29 |
-| NFR-6, NFR-7               | FR-1 – FR-41                     |
-| NFR-8                      | FR-12, FR-31                     |
-| NFR-9                      | FR-9 – FR-11                     |
-| NFR-10, NFR-11             | FR-11, FR-12, FR-18              |
-| NFR-12, NFR-13             | FR-1 – FR-41                     |
-| NFR-14, NFR-15             | FR-31                            |
-| NFR-16                     | FR-13, FR-15, FR-27, FR-33       |
+| Non-Functional Requirement | Связанные FR |
+| -------------------------- | ------------ |
+| NFR-1, NFR-2               | FR-13, FR-18, FR-27 |
+| NFR-3                      | FR-12, FR-31, FR-45 |
+| NFR-4, NFR-5               | FR-8, FR-14, FR-21, FR-23, FR-29, FR-44 |
+| NFR-6, NFR-7               | FR-1 – FR-45 |
+| NFR-8                      | FR-12, FR-31, FR-45 |
+| NFR-9                      | FR-9 – FR-11 |
+| NFR-10, NFR-11             | FR-11, FR-12, FR-18 |
+| NFR-12, NFR-13             | FR-1 – FR-45 |
+| NFR-14, NFR-15             | FR-31, FR-45 |
+| NFR-16                     | FR-13, FR-15, FR-27, FR-33 |
+| NFR-17                     | FR-1 – FR-45 |
+| NFR-18                     | FR-6, FR-8 |
+| NFR-19                     | FR-37, FR-38 |
+| NFR-20                     | FR-21, FR-23, FR-29, FR-30 |
+| NFR-21                     | FR-11, FR-12, FR-14, FR-16 |
+| NFR-22                     | FR-31, FR-45 |
+| NFR-23                     | FR-1 – FR-45 |
+| NFR-24                     | FR-12, FR-31, FR-45 |
+| NFR-25                     | FR-13, FR-15 |
+| NFR-26                     | FR-27 |
+| NFR-27                     | FR-33 |
 
 ---
